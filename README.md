@@ -118,7 +118,3 @@ Supervision:
 ## Acknowledgements
 
 With thanks to the Department of Rehabilitation Medicine at Amsterdam UMC, to Marike van der Leeden for statistical guidance, to the DUCA and DLSA registries (DICA), and to the A-PROOF ICF classifier developed by CLTL at VU Amsterdam.
-
-## License
-
-See `LICENSE`. Confirm any institutional requirements from Utrecht University and Amsterdam UMC before finalising the license.
