@@ -65,7 +65,7 @@ Data sources referenced in the code:
 | `02_descriptives` | Cohort description, outcome prevalences, and the comparison of patient characteristics by outcome reported in the thesis tables. |
 | `03_modelling` | The thirteen predictor preoperative surgical model, the preoperative versus perioperative comparison, and the logistic, lasso, and random forest models, with discrimination, calibration, and decision curve analysis. |
 | `04_sensitivity_analyses` | Robustness checks, including the surgery year adjustment for prolonged stay, the events-per-variable checks, and the comparison of the flexible models against the logistic model. |
-| `05_icf_assessment_analysis` | Links the preoperative physiotherapy notes and risk conclusions to the cohort and summarises the ICF functioning levels. |
+| `05_icf_assessment_analysis` | Links the preoperative physiotherapy risk conclusions and the classifier-coded ICF functioning to the cohort, and summarises the functioning levels. The ICF functioning is coded from the clinical notes of all healthcare professionals, not physiotherapy alone. |
 | `06_icf_prediction` | Tests whether the preoperative physiotherapy risk conclusion and the ICF functioning scores add predictive value for complications. |
 | `07_icf_trajectory` | Examines ICF based risk in relation to recovery. |
 | `08_thesis_figures` | Generates the figures and tables used in the thesis. |
