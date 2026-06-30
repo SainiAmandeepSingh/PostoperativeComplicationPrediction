@@ -1,11 +1,11 @@
 # Predicting Complications Following Cancer Surgery
 
-Analysis code and notebooks from my MSc Applied Data Science thesis (Utrecht University), carried out as an internship at the Department of Rehabilitation Medicine, Amsterdam UMC. The thesis builds a preoperative prediction model for postoperative complications following upper gastrointestinal cancer surgery, using a cohort of 1,022 oesophageal cancer patients from the Dutch Upper Gastrointestinal Cancer Audit (DUCA), treated at Amsterdam UMC between 2016 and 2025.
+Analysis code and notebooks from my MSc Applied Data Science thesis (Utrecht University), carried out as an internship at the Department of Rehabilitation Medicine, Amsterdam UMC. The thesis builds a preoperative prediction model for postoperative complications following oesophageal cancer surgery, using a cohort of 1,022 oesophageal cancer patients from the Dutch Upper Gastrointestinal Cancer Audit (DUCA), treated at Amsterdam UMC between 2016 and 2025.
 
 ## About
 
 - Title: Predicting Complications Following Cancer Surgery
-- Subtitle: A preoperative prediction model for postoperative complications following upper gastrointestinal cancer surgery
+- Subtitle: A preoperative prediction model for postoperative complications following oesophageal cancer surgery
 - Programme: MSc Applied Data Science, Department of Information and Computing Sciences, Faculty of Science, Utrecht University
 
 ## Thesis and poster
@@ -17,7 +17,7 @@ The full thesis and the conference poster are in the `docs/` folder:
 
 ## Research question
 
-The central question is how far complications after upper gastrointestinal cancer surgery can be predicted from routinely available information, and whether prediction improves by adding the operative course or the preoperative physiotherapy assessment. The work therefore evaluates three layers of information in turn: a preoperative surgical model from routinely collected variables, a perioperative model that adds the operative course, and the preoperative physiotherapy assessment together with ICF coded functioning.
+The central question is how far complications after oesophageal cancer surgery can be predicted from routinely available information, and whether prediction improves by adding the operative course or the preoperative physiotherapy assessment. The work therefore evaluates three layers of information in turn: a preoperative surgical model from routinely collected variables, a perioperative model that adds the operative course, and the preoperative physiotherapy assessment together with ICF coded functioning.
 
 ## Data
 
@@ -55,6 +55,15 @@ Data sources referenced in the code:
 │   ├── 01_exploration.ipynb
 │   └── 02_baseline_model.ipynb
 └── figures/
+    ├── fig_4_1_discrimination.png
+    ├── fig_4_2_forest_major.png
+    ├── fig_4_3_forest_prolonged.png
+    ├── fig_4_4_calibration.png
+    ├── fig_4_5_model_family.png
+    ├── fig_4_6_decision_curves.png
+    ├── fig_4_7_rate_by_conclusion.png
+    ├── fig_4_8_trajectory_added_value.png
+    └── fig_4_9_asa_vs_comorbidity.png
 ```
 
 ### upper_gi_analysis (thesis)
@@ -112,9 +121,17 @@ Author: Amandeep Singh, MSc Applied Data Science, Utrecht University.
 
 Supervision:
 
+- Prof. dr. G.T. (Gerard) Barkema, First supervisor, Utrecht University
+- Dr. M.J.S. (Matthieu) Brinkhuis, Second examiner, Utrecht University
 - Edwin Geleijn, Daily supervisor, Department of Rehabilitation Medicine, Amsterdam UMC
-- Prof. Dr. G.T. Barkema, Academic supervisor, Utrecht University
+- Dr. Marike van der Leeden, Co-supervisor, Department of Rehabilitation Medicine, Amsterdam UMC
+
+Data provided by:
+
+- Dr. M. van Dorp, MD PhD, Cardiothoracic Surgery, Amsterdam UMC
+- H.C.G. Overtoom, MD, Upper GI Surgery, Amsterdam UMC
+- Prof. M.I. van Berge Henegouwen, MD PhD, Upper GI Surgery, University of Amsterdam (overall responsible for the DUCA database)
 
 ## Acknowledgements
 
-With thanks to the Department of Rehabilitation Medicine at Amsterdam UMC, to Marike van der Leeden for statistical guidance, to the DUCA and DLSA registries (DICA), and to the A-PROOF ICF classifier developed by CLTL at VU Amsterdam.
+With thanks to the Department of Rehabilitation Medicine at Amsterdam UMC, to the DUCA and DLSA registries (DICA), and to the A-PROOF ICF classifier developed by CLTL at VU Amsterdam.
